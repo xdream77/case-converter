@@ -29,7 +29,7 @@ console.log(toCamel(str)); // thisIsMyCamel
 
 ```
 
-### Bonus: Object keys?
+### Bonus: Object keys
 ```Javascript
 const { objectKeys, toCamel } = require('./index.js');
 
