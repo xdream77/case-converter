@@ -29,26 +29,24 @@ console.log(toCamel(str)); // thisIsMyCamel
 
 ```
 
-### Want to use it on Object keys?
+### Bonus: Object keys?
 ```Javascript
-const { toKebab } = require('@xdream77/case-converter');
+const { objectKeys, toCamel } = require('./index.js');
+
 const obj = {
-    MyMulti        : 'hello',
-    'and-dashed'   : 'isWeird',
-    with_underscore: 'isPossible',
-    andAlsoCamels  : 'are supported'
+    MyMulti          : 'hello',
+    'This_is-myCamel': 'isWeird',
+    with_underscore  : 'isPossible',
+    andAlsoCamels    : 'are supported'
 };
 
-const res = Object.entries(obj)
-    .map(([key, value]) => [ toKebab(key), value ]);
-
-console.log(Object.fromEntries(res));
+console.log(objectKeys(obj, toCamel));
 /**
 {
-  'my-multi': 'hello',
-  'and-dashed': 'isWeird',
-  'with-underscore': 'isPossible',
-  'and-also-camels': 'are supported'
+  myMulti: 'hello',
+  thisIsMyCamel: 'isWeird',
+  withUnderscore: 'isPossible',
+  andAlsoCamels: 'are supported'
 }
  */
 ```
