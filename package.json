@@ -1,0 +1,26 @@
+{
+  "name": "@xdream77/case-converter",
+  "version": "1.0.0",
+  "description": "Converts naming cases from one to another. For Example: camelCase to snake_case.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Get a life!\" && exit 0",
+    "dev": "node example.js"
+  },
+  "keywords": [
+    "pascal to camel",
+    "pascal to snake",
+    "pascal to kebab",
+    "kebab to camel",
+    "kebab to pascal",
+    "kebab to snake",
+    "camel to pascal",
+    "camel to kebab",
+    "camel to snake",
+    "snake to pascal",
+    "snake to camel",
+    "snake to kebab"
+  ],
+  "author": "xdream77",
+  "license": "ISC"
+}
