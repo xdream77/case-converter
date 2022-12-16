@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Converts naming cases from one to another. For Example: camelCase to snake_case.",
   "main": "index.js",
+  "homepage": "https://github.com/xdream77/case-converter",
   "scripts": {
     "test": "echo \"Get a life!\" && exit 0",
     "dev": "node example.js"
@@ -22,5 +23,12 @@
     "snake to kebab"
   ],
   "author": "xdream77",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xdream77/case-converter.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
 }
