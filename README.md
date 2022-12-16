@@ -31,7 +31,7 @@ console.log(toCamel(str)); // thisIsMyCamel
 
 ### Bonus: Object keys
 ```Javascript
-const { objectKeys, toCamel } = require('./index.js');
+const { objectKeys, toCamel } = require('@xdream77/case-converter');
 
 const obj = {
     MyMulti          : 'hello',
