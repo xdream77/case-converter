@@ -1,8 +1,8 @@
 # case-converter
 
-Converts cases from one to another. 
-Perfect to clean and unify your code. 
-Zero Dependency
+- Converts cases from one to another. 
+- Perfect to clean and unify your code. 
+- Zero Dependency
 
 Run `example.js` for live action.
 
