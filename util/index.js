@@ -4,7 +4,6 @@ const pipe = (...fns) => start =>
 const pickOnlyUnique = arr => [...new Set(arr)];
 const onlyUpperCase  = str => str.match(/[A-Z]/g);
 const splitAt = char => str => str.split(char);
-const toArray = val => Array.isArray(val) ? val : [val];
 const toUpper = str => str.toUpperCase();
 const toLower = str => str.toLowerCase();
 const arrayToString = arr => arr.join('');
@@ -33,7 +32,6 @@ module.exports = {
     pickOnlyUnique,
     onlyUpperCase,
     splitAt,
-    toArray,
     toUpper,
     toLower,
     arrayToString,

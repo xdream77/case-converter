@@ -3,9 +3,12 @@
   "version": "1.0.7",
   "description": "Converts naming cases from one to another. For Example: camelCase to snake_case.",
   "main": "index.js",
+  "engines": {
+    "node": ">=16.0.0"
+  },
   "homepage": "https://github.com/xdream77/case-converter",
   "scripts": {
-    "test": "echo \"Get a life!\" && exit 0",
+    "test": "jest --coverage",
     "dev": "node example.js"
   },
   "keywords": [
@@ -30,5 +33,8 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "devDependencies": {
+    "jest": "^29.3.1"
   }
 }
