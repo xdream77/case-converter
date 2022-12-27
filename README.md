@@ -4,6 +4,8 @@
 - Perfect to clean and unify your code. 
 - Zero Dependency
 
+![Test coverage](https://github.com/xdream77/case-converter/blob/main/.github/workflows/node.js.yml/badge.svg)
+
 Run `example.js` for live action.
 
 ## Installation
