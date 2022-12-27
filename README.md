@@ -1,6 +1,5 @@
-[![Node.js CI](https://github.com/xdream77/case-converter/actions/workflows/node.js.yml/badge.svg)](https://github.com/xdream77/case-converter/actions/workflows/node.js.yml)
-
-[![Test](https://img.shields.io/badge/Coverage-100%25-green.svg)
+[![Node.js CI](https://github.com/xdream77/case-converter/actions/workflows/node.js.yml/badge.svg)](https://github.com/xdream77/case-converter/actions/workflows/node.js.yml) 
+![Test](https://img.shields.io/badge/Coverage-100%25-green.svg)
 
 # case-converter
 
