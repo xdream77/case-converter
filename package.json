@@ -1,6 +1,6 @@
 {
   "name": "@xdream77/case-converter",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Converts naming cases from one to another. For Example: camelCase to snake_case.",
   "main": "index.js",
   "engines": {
